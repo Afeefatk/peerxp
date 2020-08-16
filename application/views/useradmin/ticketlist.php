@@ -11,3 +11,4 @@ $phoneList = curl_exec($cURLConnection);
 curl_close($cURLConnection);
 
 echo $jsonArrayResponse = json_decode($phoneList);
+?>
